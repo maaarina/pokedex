@@ -2,7 +2,7 @@
 
 
 body {
-    background: linear-gradient(to bottom, #f8fff0, #f7d8ff);
+    background: linear-gradient(to bottom, #e3f3f2, #bacbdb);
 
     font-family: 'Poppins', sans-serif;
 
@@ -105,13 +105,13 @@ main {
 
 .cartoes:hover {
     transform: scale(1.02);
-    background-color: #e3d2ff;
+    background-color: #b885d6c4;
     cursor: pointer;
 }
 
-.modo-escuro,
+.modo-escuro
 .cartoes:hover {
-    background-color: #d2b4fa;
+    background-color: #b885d6c4;
 }
 
 .cartoes .informacoes {
