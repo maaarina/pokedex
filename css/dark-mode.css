@@ -1,0 +1,35 @@
+.modo-escuro {
+    background-image: linear-gradient(to top, #414175, #383842);
+}
+
+.modo-escuro header {
+    background-image: linear-gradient(to left, #414175, #383842);
+
+    border: #b885d6c4 solid 1px;
+}
+
+.modo-escuro h1{
+    color: #dfe0e9 ;
+}
+
+.modo-escuro h1:hover {
+    color: #69707c;
+}
+
+#alterar-tema {
+    background-color: transparent;
+    border: none;
+}
+
+
+/*cartoões dark mode*/
+.modo-escuro .cartoes {
+    background-color: #69707c;
+    color: #e9e9e9;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.modo-escuro
+.cartoes:hover {
+    background-color: #b885d6c4;
+}
