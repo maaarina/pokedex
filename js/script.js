@@ -17,13 +17,13 @@ botaoAlterarTema.addEventListener("click", () => {
         body.classList.remove("modo-escuro");
         footer.classList.remove("modo-escuro");
         main.classList.remove("modo-escuro");
-        imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/interface/sun.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "/src/images/sun.png");
     } else {
 
         body.classList.add("modo-escuro");
         footer.classList.add("modo-escuro");
         main.classList.add("modo-escuro");
-        imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/interface/moon.png");
+        imagemBotaoTrocaDeTema.setAttribute("src", "src/images/moon.png");
     }
 
 });
