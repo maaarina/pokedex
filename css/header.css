@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 25px;
+    width: 100%;
+
+    background-image: linear-gradient(to right, #e4fdfc, #bacbdb) ;
+
+    border-radius: 20px;
+    border: #414175 solid 1px;
+}
+
+.logo,
+.imagem-botao {
+    width: 55px;
+
+    transition: .4s ease-in-out;
+}
+
+.logo:hover,
+.imagem-botao:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}

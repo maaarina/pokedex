@@ -1,0 +1,52 @@
+.cartoes {
+    background-color: #d2b4fa;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+
+    gap: 15px;
+
+    border-radius: 20px;
+
+    transition: .28s ease-in-out
+}
+
+.cartoes:hover {
+    transform: scale(1.02);
+    background-color: #b885d6c4;
+    cursor: pointer;
+}
+
+.cartoes .informacoes {
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid #333;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-radius: 10px;
+
+    padding: 3px;
+}
+
+.cartoes,
+.informacoes {
+    border: 1px solid #969696bf;
+
+    -webkit-box-shadow: 16px 18px 35px -17px #3f3f3fbf;
+    -moz-box-shadow: 16px 18px 35px -17px #3f3f3fbf;
+    box-shadow: 16px 18px 35px -17px #5a5a5abf;
+}
+
+.cartoes,
+.informacoes {
+    font-size: 16px;
+    padding: 18px;
+
+    text-transform: uppercase;
+}

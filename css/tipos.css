@@ -1,0 +1,74 @@
+.tipos {
+    list-style: none;
+
+    display: flex;
+    gap: 15px;
+}
+
+.tipo {
+    padding: 8px;
+
+    border-radius: 5px;
+
+    color: #fefefe;
+    text-shadow: 2px 2px 2px #252525;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0, 0.42);
+}
+
+.grama {
+    background-color: #77CC55;
+}
+
+.veneno {
+    background-color: #AA5599;
+}
+
+.fogo {
+    background-color: #FF4422;
+}
+
+.agua {
+    background-color: #3399FF;
+}
+
+.inseto {
+    background-color: #AABB22;
+}
+
+.voador {
+    background-color: #8899FF;
+}
+
+.normal {
+    background-color: #77755e;
+}
+
+.eletrico {
+    background-color: rgb(221, 221, 19);
+}
+
+.terra {
+    background-color: rgb(165, 126, 42);
+}
+
+.fada {
+    background-color: rgb(255, 168, 183);
+}
+
+.metal {
+    background-color: grey;
+}
+
+.descricao {
+    font-size: 14px;
+    padding-right: 10px;
+
+    max-height: 80px;
+    overflow-y: scroll;
+}
+
+main.modo-escuro .descricao {
+    color: #e9e9e9;
+
+    text-shadow: 1px 1px 2px #000;
+}
