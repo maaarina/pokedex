@@ -16,7 +16,7 @@
 }
 
 .grama {
-    background-color: #77CC55;
+    background-color: #84da63;
 }
 
 .veneno {
@@ -28,19 +28,19 @@
 }
 
 .agua {
-    background-color: #3399FF;
+    background-color: #0167ce;
 }
 
 .inseto {
-    background-color: #AABB22;
+    background-color: #2fbb22;
 }
 
 .voador {
-    background-color: #8899FF;
+    background-color: #8ab9d4;
 }
 
 .normal {
-    background-color: #77755e;
+    background-color: #93849b;
 }
 
 .eletrico {
@@ -57,6 +57,30 @@
 
 .metal {
     background-color: grey;
+}
+
+.lutador {
+    background-color: rgb(218, 131, 32);
+}
+
+.psiquico{
+    background-color: #5a0574;
+}
+
+.gelo{
+    background-color: #8899FF;
+}
+
+.pedra{
+    background-color: rgb(138, 42, 5);
+}
+
+.fantasma{
+    background-color: #352288;
+}
+
+.dragao{
+    background-color: #c9efffa9;
 }
 
 .descricao {
